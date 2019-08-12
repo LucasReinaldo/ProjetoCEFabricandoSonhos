@@ -2,6 +2,10 @@
 /* -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -117,4 +121,11 @@ body {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+
+    .nav-link:hover, .nav-link:focus {
+      background-color: #FFFFFF;
+      color: #F6A42B !important;
+      border-radius: 5%
+    }
+
   }
